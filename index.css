@@ -118,6 +118,10 @@ background-size: auto;
 
 }
 
+.image:before{
+position:fixed;
+}
+
 .inner_img{
   padding-top: 200px;
 padding-bottom: 200px; 
