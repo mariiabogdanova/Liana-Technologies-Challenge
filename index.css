@@ -318,6 +318,95 @@ padding: 20px;
     text-align: left;
 }
 
+#img{
+  width: 100%;
+  filter: brightness(40%);
+}
+
+.image{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  position: relative;
+  background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(pic.jpg);
+/*background-image: url("pic.jpg");*/
+background-attachment: fixed;
+background-repeat: repeat;
+background-size: auto;
+/*filter: brightness(50%);*/
+
+
+}
+
+.image:before{
+  position: fixed;
+    margin-top: 10px;
+  margin-bottom: 10px;
+  /*position: relative;*/
+  background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(pic.jpg);
+/*background-image: url("pic.jpg");*/
+background-attachment: fixed;
+background-repeat: repeat;
+background-size: auto;
+}
+
+.inner_img{
+  padding-top: 200px;
+padding-bottom: 200px; 
+       /*text-align: center;*/
+
+/*filter: brightness(100%);*/
+/*background:linear-gradient(rgba(255,255,255,0.5));*/
+
+}
+
+.img_text{
+      position: absolute;
+     top: 40%;
+     left: 50%;
+     color: white;
+
+  
+  transform: translate(-50%, -45%);
+}
+
+
+
+.img_btn{
+  background-color: rgb(76,137,48);
+  color: white;
+  padding: 13px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+       /*position: absolute;*/
+/*            top: 100%;
+     left: 40%;*/
+  position: fixed;
+  top: 100%;
+  left: 40%;
+  /* bring your own prefixes 
+  /*transform: translate(-50%, -50%);*/
+  /*text-align: center;*/
+  color: white;
+
+     
+}
+.img_btn:hover {
+  background-color: rgb(76, 159, 48);
+  color: white;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 #logo_refer{
